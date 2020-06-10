@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="3000" Width="2500">
+    <Grid>
+        <Label x:Name="lbllat" Content="Latitude" HorizontalAlignment="Left" Margin="464,207,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbllong" Content="Longitude" HorizontalAlignment="Left" Margin="816,207,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtlat" HorizontalAlignment="Left" Height="23" Margin="522,207,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtlong" HorizontalAlignment="Left" Height="23" Margin="905,211,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Btnres" Content="Get Data" HorizontalAlignment="Left" Margin="702,242,0,0" VerticalAlignment="Top" Width="75" Click="Btnres_Click"/>
+        <Label x:Name="lblsunrise" Content="Sunrise is at:" HorizontalAlignment="Left" Margin="464,279,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblsunset" Content="Sunset is at:" HorizontalAlignment="Left" Margin="464,326,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="554,279,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,-0.577"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="554,326,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblError" Content="Label" HorizontalAlignment="Left" Margin="479,380,0,0" VerticalAlignment="Top"/>
+        
+    </Grid>
+</Window>
